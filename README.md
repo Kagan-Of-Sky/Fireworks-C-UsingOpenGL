@@ -2,7 +2,7 @@
 Second assignment for our C programming course, I chose to create some fireworks. Uses the glut OpenGL framework.
 
 ## Compilation Instructions:
-First install some packages using the following commands (Thanks to http://kiwwito.com/installing-opengl-glut-libraries-in-ubuntu/ for providing these):
+First, install the OpenGL Utility Toolkit (GLUT) using the following commands (Thanks to http://kiwwito.com/installing-opengl-glut-libraries-in-ubuntu/ for providing these):
 + sudo apt-get install freeglut3 freeglut3-dev
 + sudo apt-get install binutils-gold
 
@@ -11,6 +11,8 @@ Then compile the files using:
 
 Then run using:
 + ./fireworks
+
+Please run from the command line as the controls for spawning/deleting particles are shown on the standard output.
 
 Below is the readme file (Kaganovsky_particles.txt):
 
